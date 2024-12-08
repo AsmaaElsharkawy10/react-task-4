@@ -1,0 +1,51 @@
+.form
+{
+     width: 40%;
+     background-color: #fff;
+     border-radius: 20px;
+}
+
+Form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 3em 1em;
+}
+.password , .email
+{
+    border: none;
+    padding-block: 1.4em;
+    padding-inline : 0.5em;
+    background-color: #f7f0f0;
+    border-radius: 10px;
+    width: 100%;
+}
+.password_wrapper
+{
+    position: relative;
+}
+.icon
+{
+    position: absolute;
+    right: 1em;
+    top: 40%;
+    cursor: pointer;
+
+}
+
+button
+{
+    width: 20%;
+    background-color: rgb(194, 14, 14);
+    color: wheat;
+    border: none;
+    padding: 1em 0.6em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.error
+{
+    color: rgb(194, 14, 14);
+}
